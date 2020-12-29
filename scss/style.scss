@@ -1,0 +1,21 @@
+@import "_header";
+
+body {
+    font-size: 20px;
+    background: #000;
+    color: aliceblue;
+    div {
+        font-size: 10px;
+        background: #000;
+        border: 1px solid #000;
+    }
+
+.red{
+    color:red;
+}
+
+@media (max-width:720px) {
+    .red{
+        border: 0;
+    }
+}
